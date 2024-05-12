@@ -1,0 +1,17 @@
+#@ # 
+#@ # Running lm_shell Version R-2020.09-SP1 for linux64 -- Oct 19, 2020
+#@ # Date:   Sat May 11 14:11:39 2024
+#@ # Run by: vlsi@vlsi-eda
+#@ 
+
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+create_workspace -flow exploration -technology /home/vlsi/Desktop/Final_Project/standardCell/tech/astroTechFile.tf
+create_workspace -flow exploration -technology /home/vlsi/Desktop/Final_Project/standardcell/tech/astroTechFile.tf ExplorationWorkspace
+set_app_options -list {lib.workspace.save_layout_views {true}}
+set_app_options -list {lib.workspace.save_design_views {true}}
+set_app_options -list {lib.workspace.keep_all_physical_cells {true}}
+read_db { /home/vlsi/Desktop/Final_Project/standardcell/saed90nm_max_lth.db }
+read_lef /home/vlsi/Desktop/Final_Project/standardcell/Digital_Standard_cell_Library/lef/saed90nmEditted.lef
+group_libs
+process_workspaces  -directory /home/vlsi/Desktop/Final_Project/ndm

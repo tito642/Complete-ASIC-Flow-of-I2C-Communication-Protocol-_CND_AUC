@@ -1,0 +1,4 @@
+-1 12 59 21 0 68 5115 233 2 FMR_ELAB-115/home/vlsi/Desktop/Final_Project/RTL/i2c_master_byte_ctrl.v/i2c_master_byte_ctrlYou are using the full_case directive but not all cases are covered.
+-1 12 59 21 0 33 5020 233 2 FMR_ELAB-020/home/vlsi/Desktop/Final_Project/RTL/i2c_master_byte_ctrl.v/i2c_master_byte_ctrlPrivate message for simsyn report
+-1 12 59 21 0 33 5021 233 2 FMR_ELAB-021/home/vlsi/Desktop/Final_Project/RTL/i2c_master_byte_ctrl.v/i2c_master_byte_ctrlPrivate message for simsyn report
+-1 12 59 21 0 33 5022 233 2 FMR_ELAB-022/home/vlsi/Desktop/Final_Project/RTL/i2c_master_byte_ctrl.v/i2c_master_byte_ctrlPrivate message for simsyn report

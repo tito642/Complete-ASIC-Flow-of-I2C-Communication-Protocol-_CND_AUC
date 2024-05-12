@@ -1,0 +1,185 @@
+
+                                 Formality (R)
+
+               Version Q-2019.12-SP2 for linux64 - Feb 26, 2020 
+
+                    Copyright (c) 1988 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Build: 6162385
+Hostname: vlsi-eda
+Current time: Sat May 11 14:00:40 2024
+
+Loading db file '/eda/Synopsys/fm/Q-2019.12-SP2/libraries/syn/gtech.db'
+#mkdir log
+#fm_shell | tee  ./log/log.txt
+set synopsys_auto_setup true
+true
+set_svf -append { /home/vlsi/Desktop/Final_Project/syn/default.svf } 
+SVF appended with '/home/vlsi/Desktop/Final_Project/syn/default.svf'.
+1
+read_verilog -container r -libname WORK -05 { /home/vlsi/Desktop/Final_Project/RTL/i2c_master_bit_ctrl.v /home/vlsi/Desktop/Final_Project/RTL/i2c_master_byte_ctrl.v /home/vlsi/Desktop/Final_Project/RTL/i2c_master_defines.v /home/vlsi/Desktop/Final_Project/RTL/i2c_master_top.v /home/vlsi/Desktop/Final_Project/RTL/timescale.v } 
+Loading verilog file '/home/vlsi/Desktop/Final_Project/RTL/timescale.v'
+Loading verilog file '/home/vlsi/Desktop/Final_Project/RTL/i2c_master_bit_ctrl.v'
+Loading include file '/home/vlsi/Desktop/Final_Project/RTL/i2c_master_defines.v'
+Loading verilog file '/home/vlsi/Desktop/Final_Project/RTL/i2c_master_byte_ctrl.v'
+Loading include file '/home/vlsi/Desktop/Final_Project/RTL/i2c_master_defines.v'
+Loading verilog file '/home/vlsi/Desktop/Final_Project/RTL/i2c_master_defines.v'
+Loading verilog file '/home/vlsi/Desktop/Final_Project/RTL/i2c_master_top.v'
+Loading include file '/home/vlsi/Desktop/Final_Project/RTL/i2c_master_defines.v'
+Current container set to 'r'
+1
+set_top r:/WORK/i2c_master_top
+Setting top design to 'r:/WORK/i2c_master_top'
+Status:   Elaborating design i2c_master_top   ...  
+Status:   Elaborating design i2c_master_byte_ctrl   ...  
+Warning: You are using the full_case directive but not all cases are covered. (Signal: <unknown> Block: /i2c_master_byte_ctrl File: /home/vlsi/Desktop/Final_Project/RTL/i2c_master_byte_ctrl.v Line: 233)  (FMR_ELAB-115)
+Status:   Elaborating design i2c_master_bit_ctrl   ...  
+Warning: You are using the full_case directive but not all cases are covered. (Signal: <unknown> Block: /i2c_master_bit_ctrl File: /home/vlsi/Desktop/Final_Project/RTL/i2c_master_bit_ctrl.v Line: 408)  (FMR_ELAB-115)
+Status:  Implementing inferred operators...
+Top design set to 'r:/WORK/i2c_master_top' with warnings
+   ATTENTION: RTL interpretation messages were produced during link.
+              Verification results may disagree with a logic simulator.
+
+************ RTL Interpretation Summary ************
+************ Design: r:/WORK/i2c_master_top
+2 FMR_ELAB-115 messages produced    
+full_case interpreted (3 total, 2 with unspecified cases)
+3 FMR_ELAB-115 messages interpreted    (full case interpretation)
+
+Please refer to the Formality log file for more details,
+or execute report_hdlin_mismatches.
+****************************************************
+
+Reference design set to 'r:/WORK/i2c_master_top'
+1
+read_verilog -container i -libname WORK -05 { /home/vlsi/Desktop/Final_Project/syn/output/i2c_master_top.v } 
+Loading verilog file '/home/vlsi/Desktop/Final_Project/syn/output/i2c_master_top.v'
+Current container set to 'i'
+1
+read_db { /home/vlsi/Desktop/Final_Project/standardcell/saed90nm_max_lth.db } 
+Loading db file '/home/vlsi/Desktop/Final_Project/standardcell/saed90nm_max_lth.db'
+1
+set_top i:/WORK/i2c_master_top 
+Setting top design to 'i:/WORK/i2c_master_top'
+Status:  Implementing inferred operators...
+
+************ Library Checking Summary ************
+Warning:  60 unlinked power cell(s) with no power down function on an ff or latch.
+        Use 'report_libraries -defects all' for more details.
+**************************************************
+
+Top design successfully set to 'i:/WORK/i2c_master_top'
+Implementation design set to 'i:/WORK/i2c_master_top'
+1
+match
+Reference design is 'r:/WORK/i2c_master_top'
+Implementation design is 'i:/WORK/i2c_master_top'
+Status:  Checking designs...
+Status:  Building verification models...
+Status:  Processing Guide Commands...
+
+***************************** Guidance Summary *****************************
+                                         Status
+Command                 Accepted   Rejected  Unsupported  Unprocessed  Total
+----------------------------------------------------------------------------
+environment         :          5          0          0          0          5
+mark                :          4          0          0          0          4
+reg_constant        :          1          0          0          0          1
+transformation
+   map              :          3          0          0          0          3
+uniquify            :          3          0          0          0          3
+----------------------------------------------------------------------------
+Total               :         16          0          0          0         16
+
+SVF files read:
+      /home/vlsi/Desktop/Final_Project/syn/default.svf
+
+SVF files produced:
+  /home/vlsi/Desktop/Final_Project/fm/formality_svf/
+    svf.txt
+****************************************************************************
+
+Status:  Matching...
+    
+*********************************** Matching Results ***********************************    
+ 167 Compare points matched by name    
+ 0 Compare points matched by signature analysis    
+ 0 Compare points matched by topology    
+ 19 Matched primary inputs, black-box outputs    
+ 0(0) Unmatched reference(implementation) compare points    
+ 0(0) Unmatched reference(implementation) primary inputs, black-box outputs    
+****************************************************************************************
+
+1
+verify
+Reference design is 'r:/WORK/i2c_master_top'
+Implementation design is 'i:/WORK/i2c_master_top'
+    
+*********************************** Matching Results ***********************************    
+ 167 Compare points matched by name    
+ 0 Compare points matched by signature analysis    
+ 0 Compare points matched by topology    
+ 19 Matched primary inputs, black-box outputs    
+ 0(0) Unmatched reference(implementation) compare points    
+ 0(0) Unmatched reference(implementation) primary inputs, black-box outputs    
+****************************************************************************************
+
+Status:  Verifying...
+
+************ RTL Interpretation Summary ************
+************ Design: r:/WORK/i2c_master_top
+2 FMR_ELAB-115 messages produced    
+full_case interpreted (3 total, 2 with unspecified cases)
+3 FMR_ELAB-115 messages interpreted    (full case interpretation)
+
+Please refer to the Formality log file for more details,
+or execute report_hdlin_mismatches.
+****************************************************
+
+
+***************************** Synopsys Auto Setup Summary ******************************
+
+!!! Synopsys Auto Setup Mode was enabled. !!!
+!!! Verification results are valid assuming the following setup constraints: !!!
+
+### RTL Interpretation Setup
+   set hdlin_ignore_parallel_case false
+   set hdlin_ignore_full_case false
+   set hdlin_error_on_mismatch_message false
+   set hdlin_ignore_embedded_configuration true
+
+### Undriven Signal Handling Setup
+   set verification_set_undriven_signals synthesis
+
+### Test Logic Setup
+   set verification_verify_directly_undriven_output false
+   For details see report_dont_verify_points and report_constants
+
+For further details on Synopsys Auto Setup Mode: Type man synopsys_auto_setup
+****************************************************************************************
+
+
+********************************* Verification Results *********************************
+Verification SUCCEEDED
+   ATTENTION: synopsys_auto_setup mode was enabled.
+              See Synopsys Auto Setup Summary for details.
+   ATTENTION: RTL interpretation messages were produced during link
+              of reference design.
+              Verification results may disagree with a logic simulator.
+-----------------------------------------------------------------------
+ Reference design: r:/WORK/i2c_master_top
+ Implementation design: i:/WORK/i2c_master_top
+ 167 Passing compare points
+----------------------------------------------------------------------------------------
+Matched Compare Points     BBPin    Loop   BBNet     Cut    Port     DFF     LAT   TOTAL
+----------------------------------------------------------------------------------------
+Passing (equivalent)           0       0       0       0      14     153       0     167
+Failing (not equivalent)       0       0       0       0       0       0       0       0
+****************************************************************************************
+1
+1
+fm_shell (verify)> 

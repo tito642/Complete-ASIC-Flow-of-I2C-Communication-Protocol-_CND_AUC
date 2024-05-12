@@ -1,0 +1,18 @@
+****************************************
+Report : clock
+Design : i2c_master_top
+Version: R-2020.09-SP4
+Date   : Sun May 12 00:06:13 2024
+****************************************
+
+Attributes:
+    p - Propagated clock
+    G - Generated  clock
+    I - Inactive   clock
+
+Clock             Period          Waveform            Attrs     Sources
+-----------------------------------------------------------------------
+V_Clk               5.00          {0 2.5}                       {}
+wb_clk_i           12.50          {0 6.25}                      {wb_clk_i}
+
+1

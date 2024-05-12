@@ -1,0 +1,56 @@
+#@ # 
+#@ # Running icc2_shell Version R-2020.09-SP1 for linux64 -- Oct 19, 2020
+#@ # Date:   Sat May 11 22:16:55 2024
+#@ # Run by: vlsi@vlsi-eda
+#@ 
+
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+open_lib /home/vlsi/Desktop/Final_Project/pnr/i2c.dlib -edit
+open_block /home/vlsi/Desktop/Final_Project/pnr/i2c.dlib:routing.design
+open_block -read /home/vlsi/Desktop/Final_Project/pnr/i2c.dlib:routing.design
+gui_set_pref_value -category {showRelativeLocationConstraints} -key {macroOffsetX} -value {0.005}
+gui_set_pref_value -category {showRelativeLocationConstraints} -key {macroOffsetY} -value {0.005}
+link_block
+win_set_filter -visible -class cell -filter {hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-77}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region pin_blockage block_shielding topology_node topology_edge topology_repeater core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class cell -filter {array hard_macro_margin hard_margin route_blockage_margin soft_margin}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-77}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region pin_blockage topology_node topology_edge topology_repeater edit_group shape via placement_blockage }
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {4.815 0.000}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {4.915 -0.050}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {4.915 -0.050}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {31.640 7.530}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.025 3.740}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {31.025 3.740}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.925 2.200}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {30.925 2.205}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.870 3.135}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {30.920 3.140}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {36.865 20.840}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {72.910 40.090}
+write_sdc -output /home/vlsi/Desktop/Final_Project/pnr/output/i2c_master_top.out.sdc
+gui_scroll -window [gui_get_current_window -view] -vrel -.2
+gui_set_layout_layer_visibility -toggle [get_layers -filter {mask_name == metal8} -quiet]
+gui_set_layout_layer_visibility -toggle [get_layers -filter {mask_name == metal9} -quiet]
+win_set_filter -visible -class routing_blockage -layer {25 28}
+win_set_filter -visible -class shape -filter {} -layer {25 28}
+win_set_filter -visible -class via -filter {} -layer {25 28}
+win_set_filter -visible -class terminal -filter {}  -layer {25 28}
+win_set_filter -class routing_blockage -layer {25 28}
+win_set_filter -class shape -filter {} -layer {25 28}
+win_set_filter -class via -filter {} -layer {25 28}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {1.495 71.790}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {1.530 71.760}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {1.720 69.560}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {1.720 69.565}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {10.125 69.685}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {10.130 69.700}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {10.130 69.750}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {10.130 69.660}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 0.5 -at_point {-6.875 4.880}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {1.530 54.180}
+gui_zoom -window [gui_get_current_window -types Layout -mru] -factor 2 -at_point {1.530 54.180}
+write_sdc -output /home/vlsi/Desktop/Final_Project/pnr/output/i2c_master_top.out.sdc

@@ -1,0 +1,7 @@
+BuildDate=Mar 02, 2021
+CheckpointRoot=checkpoints
+CommandRoot=SVF
+NetlistRoot=netlists
+ProductVersion=R-2020.09-SP4
+SVFFileFormat=1.0
+SilotiRoot=siloti

@@ -1,0 +1,736 @@
+GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Attaching to process 4917
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/lm_shell_exec...(no debugging symbols found)...done.
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libFWMerge.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libFWMerge.so
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libtbb.so.2...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libtbb.so.2
+Reading symbols from /lib64/libpthread.so.0...(no debugging symbols found)...done.
+[New LWP 5012]
+[New LWP 4958]
+[New LWP 4951]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+Loaded symbols for /lib64/libpthread.so.0
+Reading symbols from /lib64/libuuid.so.1...Reading symbols from /lib64/libuuid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libuuid.so.1
+Reading symbols from /lib64/libutil.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libutil.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Widgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Widgets.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Svg.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Svg.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Gui.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Gui.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5X11Extras.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5X11Extras.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5PrintSupport.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5PrintSupport.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Network.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Network.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Xml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Xml.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Sql.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Sql.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libX11.so.6...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libX11.so.6
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxcb.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxcb.so.1
+Reading symbols from /lib64/libfontconfig.so.1...Reading symbols from /lib64/libfontconfig.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libfontconfig.so.1
+Reading symbols from /lib64/librt.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/librt.so.1
+Reading symbols from /lib64/libXft.so.2...Reading symbols from /lib64/libXft.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXft.so.2
+Reading symbols from /lib64/libXss.so.1...Reading symbols from /lib64/libXss.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXss.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebChannel.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebChannel.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebSockets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebSockets.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebKitWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebKitWidgets.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebKit.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebKit.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libz.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libz.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Test.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Test.so.5
+Reading symbols from /lib64/libpng12.so.0...Reading symbols from /lib64/libpng12.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpng12.so.0
+Reading symbols from /lib64/libdl.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdl.so.2
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libstdc++.so.6...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libstdc++.so.6
+Reading symbols from /lib64/libm.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libm.so.6
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libgcc_s.so.1...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libgcc_s.so.1
+Reading symbols from /lib64/libc.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libc.so.6
+Reading symbols from /lib64/ld-linux-x86-64.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/ld-linux-x86-64.so.2
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_thread-mt.so.1.72.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_thread-mt.so.1.72.0
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_filesystem-mt.so.1.72.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_filesystem-mt.so.1.72.0
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_system-mt.so.1.72.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_system-mt.so.1.72.0
+Reading symbols from /lib64/libGL.so.1...Reading symbols from /lib64/libGL.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libGL.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicui18n.so.57...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicui18n.so.57
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicuuc.so.57...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicuuc.so.57
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicudata.so.57...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicudata.so.57
+Reading symbols from /lib64/libXau.so.6...Reading symbols from /lib64/libXau.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXau.so.6
+Reading symbols from /lib64/libfreetype.so.6...Reading symbols from /lib64/libfreetype.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libfreetype.so.6
+Reading symbols from /lib64/libexpat.so.1...Reading symbols from /lib64/libexpat.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libexpat.so.1
+Reading symbols from /lib64/libXrender.so.1...Reading symbols from /lib64/libXrender.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXrender.so.1
+Reading symbols from /lib64/libXext.so.6...Reading symbols from /lib64/libXext.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXext.so.6
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Qml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Qml.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxslt.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxslt.so.1
+Reading symbols from /lib64/libxml2.so.2...Reading symbols from /lib64/libxml2.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libxml2.so.2
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsqlite3.so.0...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsqlite3.so.0
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Sensors.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Sensors.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Positioning.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Positioning.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5MultimediaWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5MultimediaWidgets.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Multimedia.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Multimedia.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5OpenGL.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5OpenGL.so.5
+Reading symbols from /lib64/libXcomposite.so.1...Reading symbols from /lib64/libXcomposite.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXcomposite.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libjpeg.so.62...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libjpeg.so.62
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Quick.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Quick.so.5
+Reading symbols from /lib64/libGLX.so.0...Reading symbols from /lib64/libGLX.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libGLX.so.0
+Reading symbols from /lib64/libGLdispatch.so.0...Reading symbols from /lib64/libGLdispatch.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libGLdispatch.so.0
+Reading symbols from /lib64/libbz2.so.1...Reading symbols from /lib64/libbz2.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libbz2.so.1
+Reading symbols from /lib64/libpng15.so.15...Reading symbols from /lib64/libpng15.so.15...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpng15.so.15
+Reading symbols from /lib64/liblzma.so.5...Reading symbols from /lib64/liblzma.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/liblzma.so.5
+Reading symbols from /lib64/libpulse.so.0...Reading symbols from /lib64/libpulse.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpulse.so.0
+Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/pulseaudio/libpulsecommon-10.0.so
+Reading symbols from /lib64/libdbus-1.so.3...Reading symbols from /lib64/libdbus-1.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-1.so.3
+Reading symbols from /lib64/libcap.so.2...Reading symbols from /lib64/libcap.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcap.so.2
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libX11-xcb.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libX11-xcb.so.1
+Reading symbols from /lib64/libICE.so.6...Reading symbols from /lib64/libICE.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libICE.so.6
+Reading symbols from /lib64/libSM.so.6...Reading symbols from /lib64/libSM.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libSM.so.6
+Reading symbols from /lib64/libXtst.so.6...Reading symbols from /lib64/libXtst.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXtst.so.6
+Reading symbols from /lib64/libsystemd.so.0...Reading symbols from /lib64/libsystemd.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsystemd.so.0
+Reading symbols from /lib64/libwrap.so.0...Reading symbols from /lib64/libwrap.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libwrap.so.0
+Reading symbols from /lib64/libsndfile.so.1...Reading symbols from /lib64/libsndfile.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsndfile.so.1
+Reading symbols from /lib64/libasyncns.so.0...Reading symbols from /lib64/libasyncns.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libasyncns.so.0
+Reading symbols from /lib64/libattr.so.1...Reading symbols from /lib64/libattr.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libattr.so.1
+Reading symbols from /lib64/libXi.so.6...Reading symbols from /lib64/libXi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXi.so.6
+Reading symbols from /lib64/libselinux.so.1...Reading symbols from /lib64/libselinux.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libselinux.so.1
+Reading symbols from /lib64/liblz4.so.1...Reading symbols from /lib64/liblz4.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/liblz4.so.1
+Reading symbols from /lib64/libgcrypt.so.11...Reading symbols from /lib64/libgcrypt.so.11...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgcrypt.so.11
+Reading symbols from /lib64/libgpg-error.so.0...Reading symbols from /lib64/libgpg-error.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgpg-error.so.0
+Reading symbols from /lib64/libresolv.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libresolv.so.2
+Reading symbols from /lib64/libdw.so.1...Reading symbols from /lib64/libdw.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdw.so.1
+Reading symbols from /lib64/libnsl.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnsl.so.1
+Reading symbols from /lib64/libgsm.so.1...Reading symbols from /lib64/libgsm.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgsm.so.1
+Reading symbols from /lib64/libFLAC.so.8...Reading symbols from /lib64/libFLAC.so.8...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libFLAC.so.8
+Reading symbols from /lib64/libvorbisenc.so.2...Reading symbols from /lib64/libvorbisenc.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbisenc.so.2
+Reading symbols from /lib64/libvorbis.so.0...Reading symbols from /lib64/libvorbis.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbis.so.0
+Reading symbols from /lib64/libogg.so.0...Reading symbols from /lib64/libogg.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libogg.so.0
+Reading symbols from /lib64/libpcre.so.1...Reading symbols from /lib64/libpcre.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpcre.so.1
+Reading symbols from /lib64/libelf.so.1...Reading symbols from /lib64/libelf.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libelf.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libtbbmalloc.so.2...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libtbbmalloc.so.2
+Reading symbols from /lib64/libnss_files.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnss_files.so.2
+Reading symbols from /lib64/libudev.so.1...Reading symbols from /lib64/libudev.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libudev.so.1
+Reading symbols from /lib64/libdbus-glib-1.so.2...Reading symbols from /lib64/libdbus-glib-1.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-glib-1.so.2
+Reading symbols from /lib64/libgio-2.0.so.0...Reading symbols from /lib64/libgio-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgio-2.0.so.0
+Reading symbols from /lib64/libgobject-2.0.so.0...Reading symbols from /lib64/libgobject-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgobject-2.0.so.0
+Reading symbols from /lib64/libglib-2.0.so.0...Reading symbols from /lib64/libglib-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libglib-2.0.so.0
+Reading symbols from /lib64/libffi.so.6...Reading symbols from /lib64/libffi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libffi.so.6
+Reading symbols from /lib64/libgmodule-2.0.so.0...Reading symbols from /lib64/libgmodule-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgmodule-2.0.so.0
+Reading symbols from /lib64/libmount.so.1...Reading symbols from /lib64/libmount.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libmount.so.1
+Reading symbols from /lib64/libblkid.so.1...Reading symbols from /lib64/libblkid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libblkid.so.1
+Reading symbols from /lib64/libnss_sss.so.2...Reading symbols from /lib64/libnss_sss.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnss_sss.so.2
+Reading symbols from /lib64/libXcursor.so.1...Reading symbols from /lib64/libXcursor.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXcursor.so.1
+Reading symbols from /lib64/libXfixes.so.3...Reading symbols from /lib64/libXfixes.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXfixes.so.3
+0x00007f94aa82654d in __lll_lock_wait () from /lib64/libpthread.so.0
+Missing separate debuginfos, use: debuginfo-install bzip2-libs-1.0.6-13.el7.x86_64 dbus-glib-0.100-7.el7.x86_64 dbus-libs-1.10.24-15.el7.x86_64 elfutils-libelf-0.176-5.el7.x86_64 elfutils-libs-0.176-5.el7.x86_64 expat-2.1.0-15.el7_9.x86_64 flac-libs-1.3.0-5.el7_1.x86_64 fontconfig-2.13.0-4.3.el7.x86_64 freetype-2.8-14.el7_9.1.x86_64 glib2-2.56.1-9.el7_9.x86_64 glibc-2.17-326.el7_9.x86_64 gsm-1.0.13-11.el7.x86_64 libICE-1.0.9-9.el7.x86_64 libSM-1.2.2-2.el7.x86_64 libXScrnSaver-1.2.2-6.1.el7.x86_64 libXau-1.0.8-2.1.el7.x86_64 libXcomposite-0.4.4-4.1.el7.x86_64 libXcursor-1.1.15-1.el7.x86_64 libXext-1.3.3-3.el7.x86_64 libXfixes-5.0.3-1.el7.x86_64 libXft-2.3.2-2.el7.x86_64 libXi-1.7.9-1.el7.x86_64 libXrender-0.9.10-1.el7.x86_64 libXtst-1.2.3-1.el7.x86_64 libasyncns-0.8-7.el7.x86_64 libattr-2.4.46-13.el7.x86_64 libblkid-2.23.2-65.el7_9.1.x86_64 libcap-2.22-11.el7.x86_64 libffi-3.0.13-19.el7.x86_64 libgcrypt-1.5.3-14.el7.x86_64 libglvnd-1.0.1-0.8.git5baa1e5.el7.x86_64 libglvnd-glx-1.0.1-0.8.git5baa1e5.el7.x86_64 libgpg-error-1.12-3.el7.x86_64 libmount-2.23.2-65.el7_9.1.x86_64 libogg-1.3.0-7.el7.x86_64 libpng-1.5.13-8.el7.x86_64 libpng12-1.2.50-10.el7.x86_64 libselinux-2.5-15.el7.x86_64 libsndfile-1.0.25-12.el7_9.1.x86_64 libuuid-2.23.2-65.el7_9.1.x86_64 libvorbis-1.3.3-8.el7.1.x86_64 libxml2-2.9.1-6.el7_9.6.x86_64 lz4-1.8.3-1.el7.x86_64 pcre-8.32-17.el7.x86_64 pulseaudio-libs-10.0-6.el7_9.x86_64 sssd-client-1.16.5-10.el7_9.16.x86_64 systemd-libs-219-78.el7_9.9.x86_64 tcp_wrappers-libs-7.6-77.el7.x86_64 xz-libs-5.2.2-2.el7_9.x86_64
+(gdb) (gdb) 
+Thread 4 (Thread 0x7f9491d5d700 (LWP 4951)):
+#0  0x00007f94a2fc4b43 in select () from /lib64/libc.so.6
+#1  0x0000000006e05a96 in SNPSee_554ec7c90557bab679d871cd58526530 ()
+#2  0x0000000007207bc1 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f94aa81fea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007f94a2fcdb0d in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f948f86a700 (LWP 4958)):
+#0  0x00007f94a2f94659 in waitpid () from /lib64/libc.so.6
+#1  0x00007f94a2f11f62 in do_system () from /lib64/libc.so.6
+#2  0x00007f94a2f12311 in system () from /lib64/libc.so.6
+#3  0x0000000007209b32 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317487fd2aa296d8a7317 ()
+#4  0x000000000720b601 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317484a021951c8b3b34314fe2ade355c4696 ()
+#5  0x00000000067aceba in SNPSee_9ea8dbbd5e74784445edf9ed12a0bc4777b489dcaefdb88f6aa47f4097fccf5e ()
+#6  0x00000000067aeef5 in SNPSee_9ea8dbbd5e74784484d3cce2fced02c05a3783bc3b9f8fad6989ef886e673ad9 ()
+#7  <signal handler called>
+#8  0x0000000006cdcbe0 in SNPSee_ad1b70cf0f834544c0d4f2f6b5c47df572dc4d4f90f1aef9c67d522ad50ad10443ffb50f3c27099fb6eabf612e57c8b2 ()
+#9  <signal handler called>
+#10 0x00007f94a2fc2ddd in poll () from /lib64/libc.so.6
+#11 0x00007f94a7887aaa in ?? () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxcb.so.1
+#12 0x00007f94a78891c8 in xcb_wait_for_event () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxcb.so.1
+#13 0x00007f948f8a6f09 in ?? ()
+#14 0x000000000ef61da8 in ?? ()
+#15 0x00007f948f869320 in ?? ()
+#16 0x000000000f9a0000 in ?? ()
+#17 0x0000000000000004 in ?? ()
+#18 0x00007f948f869360 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+Thread 2 (Thread 0x7f948881d700 (LWP 5012)):
+#0  0x00007f94aa823a35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00007f94a80e4233 in QWaitCondition::wait(QMutex*, unsigned long) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#2  0x00007f94a80dfa69 in ?? () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#3  0x00007f94a80e34d3 in ?? () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#4  0x0000000007207bc1 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#5  0x00007f94aa81fea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007f94a2fcdb0d in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f94ac03d240 (LWP 4917)):
+#0  0x00007f94aa82654d in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00007f94aa821eb6 in _L_lock_941 () from /lib64/libpthread.so.0
+#2  0x00007f94aa821daf in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00000000067ae9ab in SNPSee_9ea8dbbd5e74784484d3cce2fced02c05a3783bc3b9f8fad6989ef886e673ad9 ()
+#4  0x0000000006cec18c in SNPSee_3da1e8e388eef22c4cad96049bb507e323902e731626b6f85a1de23e01dcfb84 ()
+#5  <signal handler called>
+#6  0x00007f94a82af240 in QAbstractEventDispatcherPrivate::allocateTimerId() () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#7  0x00007f94a82af7f2 in QAbstractEventDispatcher::registerTimer(int, Qt::TimerType, QObject*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#8  0x00007f94a82dff53 in QObject::startTimer(int, Qt::TimerType) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#9  0x00007f94a82eab33 in QTimer::start() () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#10 0x00000000007ba0f9 in SNPSee_eb146adf0110529c0a1bbf990ca0f4d37912e7414112771165474bcf45779ad1925af266459f70496beeb9fb3688573ad8f8dbc186f1fd396d97080088568421 ()
+#11 0x0000000002a30db7 in SNPSee_fb5c53e1abe3c3fb65d3a75d364eac53d196e0d8aa8771c5a8e2a10626483795b39dd4739d674aed6a4d632246a2a42b54e86f874a8fdbf7322a01125ac29a4d0e9da16979b89752f3c0a10d79d52abda5c7e90d9561b939ec9560f1e9223353 ()
+#12 0x0000000002ba8972 in SNPSee_f242ac8604e97d825db24021dc4e1108c2691b569032fc17 ()
+#13 0x0000000002ba8cc1 in SNPSee_310008095b1ef423826bcaf158861014e2e9e082f8b1b2185a43d91104054bb9 ()
+#14 0x0000000002b88547 in SNPSee_97300c62ae74d972d629df3d6e9c001c059b10c900da240d ()
+#15 0x0000000002af0812 in SNPSee_637ab18ff7ff6f38f0d7f75a732e067d148fe4ed6d13d555 ()
+#16 0x00007f94a2f08ce9 in __run_exit_handlers () from /lib64/libc.so.6
+#17 0x00007f94a2f08d37 in exit () from /lib64/libc.so.6
+#18 0x00007f949bacbcda in _IceDefaultIOErrorHandler () from /lib64/libICE.so.6
+#19 0x00007f949bad1ba4 in _IceRead () from /lib64/libICE.so.6
+#20 0x00007f949bad5ba0 in IceProcessMessages () from /lib64/libICE.so.6
+#21 0x00007f94a82de0a6 in QMetaObject::activate(QObject*, int, int, void**) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#22 0x00007f94a835724d in QSocketNotifier::activated(int, QSocketNotifier::QPrivateSignal) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#23 0x00007f94a82ea713 in QSocketNotifier::event(QEvent*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#24 0x00007f94a9d1c81c in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Widgets.so.5
+#25 0x00007f94a9d21bb2 in QApplication::notify(QObject*, QEvent*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Widgets.so.5
+#26 0x00000000021e77f8 in SNPSee_9886f32bf8214536ec9f95d3ed3c7f5e64ba1872850550598ca741cdfb68659679bafee2b9707c59 ()
+#27 0x00007f94a82b2588 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#28 0x00007f94a83035e4 in QEventDispatcherUNIXPrivate::activateSocketNotifiers() () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#29 0x00007f94a83039a1 in QEventDispatcherUNIX::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#30 0x0000000007be317e in SNPSee_022a2517f3563cbec2b5b42fedeb3dda68298addcf6014c77180d8caa827bd35279c339b109c845b928007e791d4668ff5d311bfb9e94450ab3ccaa8ebfc54a950b981701765173873c40273f1516ffa5352ef056534af68 ()
+#31 0x00000000016e4a8c in SNPSee_80051c3e017cbcc0e527ada7eaf06b628ebb3290689b73b98b5c8979b8a944fddf301789f3c04ee9e18e02a6e8dc8c8cc8d90585d03a00ea2c8799e295df6dd58edeea89405a17bcdadbde37f16eda3e ()
+#32 0x00000000079d0981 in SNPSee_cf98e994a81a3699f563cc87d9a119de ()
+#33 0x00000000016e4a38 in SNPSee_80051c3e017cbcc0e527ada7eaf06b628ebb3290689b73b98b5c8979b8a944fddf301789f3c04ee9e18e02a6e8dc8c8cc8d90585d03a00ea2c8799e295df6dd58edeea89405a17bcdadbde37f16eda3e ()
+#34 0x00007f94a82b085b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#35 0x00007f94a82b8b58 in QCoreApplication::exec() () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#36 0x000000000211143f in SNPSee_b81f4656f0d7d3ca1b0bca755b60caea2cb50375ef5e9df280c2a7ba1e2ca19f7750e3d580600edd04a01dc4363d697fcd6b18c4d0ab558c ()
+#37 0x00000000065dff17 in SNPSee_b3a63ca9beb66366a2beecdfa325f5f850e37c16b964335ba934f8a7afefeaf1 ()
+#38 0x000000000055c709 in SNPSee_5a24f30b88271223 ()
+#39 0x00007f94a2ef1555 in __libc_start_main () from /lib64/libc.so.6
+#40 0x000000000076c7a5 in SNPSee_d06eed713327be76 ()
+(gdb) Detaching from program: /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/lm_shell_exec, process 4917
+[Inferior 1 (process 4917) detached]
+(gdb) GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Attaching to process 4917
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/lm_shell_exec...(no debugging symbols found)...done.
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libFWMerge.so...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libFWMerge.so
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libtbb.so.2...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libtbb.so.2
+Reading symbols from /lib64/libpthread.so.0...(no debugging symbols found)...done.
+[New LWP 5012]
+[New LWP 4958]
+[New LWP 4951]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+Loaded symbols for /lib64/libpthread.so.0
+Reading symbols from /lib64/libuuid.so.1...Reading symbols from /lib64/libuuid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libuuid.so.1
+Reading symbols from /lib64/libutil.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libutil.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Widgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Widgets.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Svg.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Svg.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Gui.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Gui.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5X11Extras.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5X11Extras.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5PrintSupport.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5PrintSupport.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Network.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Network.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Xml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Xml.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Sql.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Sql.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libX11.so.6...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libX11.so.6
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxcb.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxcb.so.1
+Reading symbols from /lib64/libfontconfig.so.1...Reading symbols from /lib64/libfontconfig.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libfontconfig.so.1
+Reading symbols from /lib64/librt.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/librt.so.1
+Reading symbols from /lib64/libXft.so.2...Reading symbols from /lib64/libXft.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXft.so.2
+Reading symbols from /lib64/libXss.so.1...Reading symbols from /lib64/libXss.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXss.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebChannel.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebChannel.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebSockets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebSockets.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebKitWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebKitWidgets.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebKit.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5WebKit.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libz.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libz.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Test.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Test.so.5
+Reading symbols from /lib64/libpng12.so.0...Reading symbols from /lib64/libpng12.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpng12.so.0
+Reading symbols from /lib64/libdl.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdl.so.2
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libstdc++.so.6...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libstdc++.so.6
+Reading symbols from /lib64/libm.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libm.so.6
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libgcc_s.so.1...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libgcc_s.so.1
+Reading symbols from /lib64/libc.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libc.so.6
+Reading symbols from /lib64/ld-linux-x86-64.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/ld-linux-x86-64.so.2
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_thread-mt.so.1.72.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_thread-mt.so.1.72.0
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_filesystem-mt.so.1.72.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_filesystem-mt.so.1.72.0
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_system-mt.so.1.72.0...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsnps_boost_1_72_0_system-mt.so.1.72.0
+Reading symbols from /lib64/libGL.so.1...Reading symbols from /lib64/libGL.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libGL.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicui18n.so.57...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicui18n.so.57
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicuuc.so.57...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicuuc.so.57
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicudata.so.57...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libicudata.so.57
+Reading symbols from /lib64/libXau.so.6...Reading symbols from /lib64/libXau.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXau.so.6
+Reading symbols from /lib64/libfreetype.so.6...Reading symbols from /lib64/libfreetype.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libfreetype.so.6
+Reading symbols from /lib64/libexpat.so.1...Reading symbols from /lib64/libexpat.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libexpat.so.1
+Reading symbols from /lib64/libXrender.so.1...Reading symbols from /lib64/libXrender.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXrender.so.1
+Reading symbols from /lib64/libXext.so.6...Reading symbols from /lib64/libXext.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXext.so.6
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Qml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Qml.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxslt.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxslt.so.1
+Reading symbols from /lib64/libxml2.so.2...Reading symbols from /lib64/libxml2.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libxml2.so.2
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsqlite3.so.0...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libsqlite3.so.0
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Sensors.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Sensors.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Positioning.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Positioning.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5MultimediaWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5MultimediaWidgets.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Multimedia.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Multimedia.so.5
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5OpenGL.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5OpenGL.so.5
+Reading symbols from /lib64/libXcomposite.so.1...Reading symbols from /lib64/libXcomposite.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXcomposite.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libjpeg.so.62...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libjpeg.so.62
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Quick.so.5...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Quick.so.5
+Reading symbols from /lib64/libGLX.so.0...Reading symbols from /lib64/libGLX.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libGLX.so.0
+Reading symbols from /lib64/libGLdispatch.so.0...Reading symbols from /lib64/libGLdispatch.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libGLdispatch.so.0
+Reading symbols from /lib64/libbz2.so.1...Reading symbols from /lib64/libbz2.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libbz2.so.1
+Reading symbols from /lib64/libpng15.so.15...Reading symbols from /lib64/libpng15.so.15...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpng15.so.15
+Reading symbols from /lib64/liblzma.so.5...Reading symbols from /lib64/liblzma.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/liblzma.so.5
+Reading symbols from /lib64/libpulse.so.0...Reading symbols from /lib64/libpulse.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpulse.so.0
+Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/pulseaudio/libpulsecommon-10.0.so
+Reading symbols from /lib64/libdbus-1.so.3...Reading symbols from /lib64/libdbus-1.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-1.so.3
+Reading symbols from /lib64/libcap.so.2...Reading symbols from /lib64/libcap.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcap.so.2
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libX11-xcb.so.1...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libX11-xcb.so.1
+Reading symbols from /lib64/libICE.so.6...Reading symbols from /lib64/libICE.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libICE.so.6
+Reading symbols from /lib64/libSM.so.6...Reading symbols from /lib64/libSM.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libSM.so.6
+Reading symbols from /lib64/libXtst.so.6...Reading symbols from /lib64/libXtst.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXtst.so.6
+Reading symbols from /lib64/libsystemd.so.0...Reading symbols from /lib64/libsystemd.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsystemd.so.0
+Reading symbols from /lib64/libwrap.so.0...Reading symbols from /lib64/libwrap.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libwrap.so.0
+Reading symbols from /lib64/libsndfile.so.1...Reading symbols from /lib64/libsndfile.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsndfile.so.1
+Reading symbols from /lib64/libasyncns.so.0...Reading symbols from /lib64/libasyncns.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libasyncns.so.0
+Reading symbols from /lib64/libattr.so.1...Reading symbols from /lib64/libattr.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libattr.so.1
+Reading symbols from /lib64/libXi.so.6...Reading symbols from /lib64/libXi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXi.so.6
+Reading symbols from /lib64/libselinux.so.1...Reading symbols from /lib64/libselinux.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libselinux.so.1
+Reading symbols from /lib64/liblz4.so.1...Reading symbols from /lib64/liblz4.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/liblz4.so.1
+Reading symbols from /lib64/libgcrypt.so.11...Reading symbols from /lib64/libgcrypt.so.11...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgcrypt.so.11
+Reading symbols from /lib64/libgpg-error.so.0...Reading symbols from /lib64/libgpg-error.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgpg-error.so.0
+Reading symbols from /lib64/libresolv.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libresolv.so.2
+Reading symbols from /lib64/libdw.so.1...Reading symbols from /lib64/libdw.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdw.so.1
+Reading symbols from /lib64/libnsl.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnsl.so.1
+Reading symbols from /lib64/libgsm.so.1...Reading symbols from /lib64/libgsm.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgsm.so.1
+Reading symbols from /lib64/libFLAC.so.8...Reading symbols from /lib64/libFLAC.so.8...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libFLAC.so.8
+Reading symbols from /lib64/libvorbisenc.so.2...Reading symbols from /lib64/libvorbisenc.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbisenc.so.2
+Reading symbols from /lib64/libvorbis.so.0...Reading symbols from /lib64/libvorbis.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbis.so.0
+Reading symbols from /lib64/libogg.so.0...Reading symbols from /lib64/libogg.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libogg.so.0
+Reading symbols from /lib64/libpcre.so.1...Reading symbols from /lib64/libpcre.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpcre.so.1
+Reading symbols from /lib64/libelf.so.1...Reading symbols from /lib64/libelf.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libelf.so.1
+Reading symbols from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libtbbmalloc.so.2...(no debugging symbols found)...done.
+Loaded symbols for /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libtbbmalloc.so.2
+Reading symbols from /lib64/libnss_files.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnss_files.so.2
+Reading symbols from /lib64/libudev.so.1...Reading symbols from /lib64/libudev.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libudev.so.1
+Reading symbols from /lib64/libdbus-glib-1.so.2...Reading symbols from /lib64/libdbus-glib-1.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-glib-1.so.2
+Reading symbols from /lib64/libgio-2.0.so.0...Reading symbols from /lib64/libgio-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgio-2.0.so.0
+Reading symbols from /lib64/libgobject-2.0.so.0...Reading symbols from /lib64/libgobject-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgobject-2.0.so.0
+Reading symbols from /lib64/libglib-2.0.so.0...Reading symbols from /lib64/libglib-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libglib-2.0.so.0
+Reading symbols from /lib64/libffi.so.6...Reading symbols from /lib64/libffi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libffi.so.6
+Reading symbols from /lib64/libgmodule-2.0.so.0...Reading symbols from /lib64/libgmodule-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgmodule-2.0.so.0
+Reading symbols from /lib64/libmount.so.1...Reading symbols from /lib64/libmount.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libmount.so.1
+Reading symbols from /lib64/libblkid.so.1...Reading symbols from /lib64/libblkid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libblkid.so.1
+Reading symbols from /lib64/libnss_sss.so.2...Reading symbols from /lib64/libnss_sss.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnss_sss.so.2
+Reading symbols from /lib64/libXcursor.so.1...Reading symbols from /lib64/libXcursor.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXcursor.so.1
+Reading symbols from /lib64/libXfixes.so.3...Reading symbols from /lib64/libXfixes.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXfixes.so.3
+0x00007f94aa82654d in __lll_lock_wait () from /lib64/libpthread.so.0
+Missing separate debuginfos, use: debuginfo-install bzip2-libs-1.0.6-13.el7.x86_64 dbus-glib-0.100-7.el7.x86_64 dbus-libs-1.10.24-15.el7.x86_64 elfutils-libelf-0.176-5.el7.x86_64 elfutils-libs-0.176-5.el7.x86_64 expat-2.1.0-15.el7_9.x86_64 flac-libs-1.3.0-5.el7_1.x86_64 fontconfig-2.13.0-4.3.el7.x86_64 freetype-2.8-14.el7_9.1.x86_64 glib2-2.56.1-9.el7_9.x86_64 glibc-2.17-326.el7_9.x86_64 gsm-1.0.13-11.el7.x86_64 libICE-1.0.9-9.el7.x86_64 libSM-1.2.2-2.el7.x86_64 libXScrnSaver-1.2.2-6.1.el7.x86_64 libXau-1.0.8-2.1.el7.x86_64 libXcomposite-0.4.4-4.1.el7.x86_64 libXcursor-1.1.15-1.el7.x86_64 libXext-1.3.3-3.el7.x86_64 libXfixes-5.0.3-1.el7.x86_64 libXft-2.3.2-2.el7.x86_64 libXi-1.7.9-1.el7.x86_64 libXrender-0.9.10-1.el7.x86_64 libXtst-1.2.3-1.el7.x86_64 libasyncns-0.8-7.el7.x86_64 libattr-2.4.46-13.el7.x86_64 libblkid-2.23.2-65.el7_9.1.x86_64 libcap-2.22-11.el7.x86_64 libffi-3.0.13-19.el7.x86_64 libgcrypt-1.5.3-14.el7.x86_64 libglvnd-1.0.1-0.8.git5baa1e5.el7.x86_64 libglvnd-glx-1.0.1-0.8.git5baa1e5.el7.x86_64 libgpg-error-1.12-3.el7.x86_64 libmount-2.23.2-65.el7_9.1.x86_64 libogg-1.3.0-7.el7.x86_64 libpng-1.5.13-8.el7.x86_64 libpng12-1.2.50-10.el7.x86_64 libselinux-2.5-15.el7.x86_64 libsndfile-1.0.25-12.el7_9.1.x86_64 libuuid-2.23.2-65.el7_9.1.x86_64 libvorbis-1.3.3-8.el7.1.x86_64 libxml2-2.9.1-6.el7_9.6.x86_64 lz4-1.8.3-1.el7.x86_64 pcre-8.32-17.el7.x86_64 pulseaudio-libs-10.0-6.el7_9.x86_64 sssd-client-1.16.5-10.el7_9.16.x86_64 systemd-libs-219-78.el7_9.9.x86_64 tcp_wrappers-libs-7.6-77.el7.x86_64 xz-libs-5.2.2-2.el7_9.x86_64
+(gdb) (gdb) 
+Thread 4 (Thread 0x7f9491d5d700 (LWP 4951)):
+#0  0x00007f94a2fc4b43 in select () from /lib64/libc.so.6
+#1  0x0000000006e05a96 in SNPSee_554ec7c90557bab679d871cd58526530 ()
+#2  0x0000000007207bc1 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007f94aa81fea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007f94a2fcdb0d in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f948f86a700 (LWP 4958)):
+#0  0x00007f94a2f94659 in waitpid () from /lib64/libc.so.6
+#1  0x00007f94a2f11f62 in do_system () from /lib64/libc.so.6
+#2  0x00007f94a2f12311 in system () from /lib64/libc.so.6
+#3  0x0000000007209b32 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317487fd2aa296d8a7317 ()
+#4  0x000000000720b601 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317484a021951c8b3b34314fe2ade355c4696 ()
+#5  0x00000000067aceba in SNPSee_9ea8dbbd5e74784445edf9ed12a0bc4777b489dcaefdb88f6aa47f4097fccf5e ()
+#6  0x00000000067aeef5 in SNPSee_9ea8dbbd5e74784484d3cce2fced02c05a3783bc3b9f8fad6989ef886e673ad9 ()
+#7  0x0000000006cec18c in SNPSee_3da1e8e388eef22c4cad96049bb507e323902e731626b6f85a1de23e01dcfb84 ()
+#8  <signal handler called>
+#9  x86_64_fallback_frame_state (context=0x7f948f8680c0, context=0x7f948f8680c0, fs=0x7f948f8681b0) at ./md-unwind-support.h:58
+#10 uw_frame_state_for (context=context@entry=0x7f948f8680c0, fs=fs@entry=0x7f948f8681b0) at ../../../src/gcc-7.3.0/libgcc/unwind-dw2.c:1257
+#11 0x00007f94a32ad6a8 in _Unwind_Backtrace (trace=0x67ac190 <SNPSee_5751cecd42fbf297cb56d4335e917ffb67290a5eac6cadca27b2d6536463649e95f06227a027c7ced0fc7e808ce7e751>, trace_argument=0x7f948f868380) at ../../../src/gcc-7.3.0/libgcc/unwind.inc:290
+#12 0x00000000067ada05 in SNPSee_9ea8dbbd5e7478444a972f7fabbc23df7f066f34bee1d54437e9be1b8ebd61f3 ()
+#13 0x00000000067aebd1 in SNPSee_9ea8dbbd5e74784484d3cce2fced02c05a3783bc3b9f8fad6989ef886e673ad9 ()
+#14 <signal handler called>
+#15 0x0000000006cdcbe0 in SNPSee_ad1b70cf0f834544c0d4f2f6b5c47df572dc4d4f90f1aef9c67d522ad50ad10443ffb50f3c27099fb6eabf612e57c8b2 ()
+#16 <signal handler called>
+#17 0x00007f94a2fc2ddd in poll () from /lib64/libc.so.6
+#18 0x00007f94a7887aaa in ?? () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxcb.so.1
+#19 0x00007f94a78891c8 in xcb_wait_for_event () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libxcb.so.1
+#20 0x00007f948f8a6f09 in ?? ()
+#21 0x000000000ef61da8 in ?? ()
+#22 0x00007f948f869320 in ?? ()
+#23 0x000000000f9a0000 in ?? ()
+#24 0x0000000000000004 in ?? ()
+#25 0x00007f948f869360 in ?? ()
+Backtrace stopped: previous frame identical to this frame (corrupt stack?)
+
+Thread 2 (Thread 0x7f948881d700 (LWP 5012)):
+#0  0x00007f94aa823a35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00007f94a80e4233 in QWaitCondition::wait(QMutex*, unsigned long) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#2  0x00007f94a80dfa69 in ?? () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#3  0x00007f94a80e34d3 in ?? () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#4  0x0000000007207bc1 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#5  0x00007f94aa81fea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007f94a2fcdb0d in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7f94ac03d240 (LWP 4917)):
+#0  0x00007f94aa82654d in __lll_lock_wait () from /lib64/libpthread.so.0
+#1  0x00007f94aa821eb6 in _L_lock_941 () from /lib64/libpthread.so.0
+#2  0x00007f94aa821daf in pthread_mutex_lock () from /lib64/libpthread.so.0
+#3  0x00000000067ae9ab in SNPSee_9ea8dbbd5e74784484d3cce2fced02c05a3783bc3b9f8fad6989ef886e673ad9 ()
+#4  0x0000000006cec18c in SNPSee_3da1e8e388eef22c4cad96049bb507e323902e731626b6f85a1de23e01dcfb84 ()
+#5  <signal handler called>
+#6  0x00007f94a82af240 in QAbstractEventDispatcherPrivate::allocateTimerId() () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#7  0x00007f94a82af7f2 in QAbstractEventDispatcher::registerTimer(int, Qt::TimerType, QObject*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#8  0x00007f94a82dff53 in QObject::startTimer(int, Qt::TimerType) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#9  0x00007f94a82eab33 in QTimer::start() () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#10 0x00000000007ba0f9 in SNPSee_eb146adf0110529c0a1bbf990ca0f4d37912e7414112771165474bcf45779ad1925af266459f70496beeb9fb3688573ad8f8dbc186f1fd396d97080088568421 ()
+#11 0x0000000002a30db7 in SNPSee_fb5c53e1abe3c3fb65d3a75d364eac53d196e0d8aa8771c5a8e2a10626483795b39dd4739d674aed6a4d632246a2a42b54e86f874a8fdbf7322a01125ac29a4d0e9da16979b89752f3c0a10d79d52abda5c7e90d9561b939ec9560f1e9223353 ()
+#12 0x0000000002ba8972 in SNPSee_f242ac8604e97d825db24021dc4e1108c2691b569032fc17 ()
+#13 0x0000000002ba8cc1 in SNPSee_310008095b1ef423826bcaf158861014e2e9e082f8b1b2185a43d91104054bb9 ()
+#14 0x0000000002b88547 in SNPSee_97300c62ae74d972d629df3d6e9c001c059b10c900da240d ()
+#15 0x0000000002af0812 in SNPSee_637ab18ff7ff6f38f0d7f75a732e067d148fe4ed6d13d555 ()
+#16 0x00007f94a2f08ce9 in __run_exit_handlers () from /lib64/libc.so.6
+#17 0x00007f94a2f08d37 in exit () from /lib64/libc.so.6
+#18 0x00007f949bacbcda in _IceDefaultIOErrorHandler () from /lib64/libICE.so.6
+#19 0x00007f949bad1ba4 in _IceRead () from /lib64/libICE.so.6
+#20 0x00007f949bad5ba0 in IceProcessMessages () from /lib64/libICE.so.6
+#21 0x00007f94a82de0a6 in QMetaObject::activate(QObject*, int, int, void**) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#22 0x00007f94a835724d in QSocketNotifier::activated(int, QSocketNotifier::QPrivateSignal) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#23 0x00007f94a82ea713 in QSocketNotifier::event(QEvent*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#24 0x00007f94a9d1c81c in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Widgets.so.5
+#25 0x00007f94a9d21bb2 in QApplication::notify(QObject*, QEvent*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Widgets.so.5
+#26 0x00000000021e77f8 in SNPSee_9886f32bf8214536ec9f95d3ed3c7f5e64ba1872850550598ca741cdfb68659679bafee2b9707c59 ()
+#27 0x00007f94a82b2588 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#28 0x00007f94a83035e4 in QEventDispatcherUNIXPrivate::activateSocketNotifiers() () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#29 0x00007f94a83039a1 in QEventDispatcherUNIX::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#30 0x0000000007be317e in SNPSee_022a2517f3563cbec2b5b42fedeb3dda68298addcf6014c77180d8caa827bd35279c339b109c845b928007e791d4668ff5d311bfb9e94450ab3ccaa8ebfc54a950b981701765173873c40273f1516ffa5352ef056534af68 ()
+#31 0x00000000016e4a8c in SNPSee_80051c3e017cbcc0e527ada7eaf06b628ebb3290689b73b98b5c8979b8a944fddf301789f3c04ee9e18e02a6e8dc8c8cc8d90585d03a00ea2c8799e295df6dd58edeea89405a17bcdadbde37f16eda3e ()
+#32 0x00000000079d0981 in SNPSee_cf98e994a81a3699f563cc87d9a119de ()
+#33 0x00000000016e4a38 in SNPSee_80051c3e017cbcc0e527ada7eaf06b628ebb3290689b73b98b5c8979b8a944fddf301789f3c04ee9e18e02a6e8dc8c8cc8d90585d03a00ea2c8799e295df6dd58edeea89405a17bcdadbde37f16eda3e ()
+#34 0x00007f94a82b085b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#35 0x00007f94a82b8b58 in QCoreApplication::exec() () from /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/../shlib/libQt5Core.so.5
+#36 0x000000000211143f in SNPSee_b81f4656f0d7d3ca1b0bca755b60caea2cb50375ef5e9df280c2a7ba1e2ca19f7750e3d580600edd04a01dc4363d697fcd6b18c4d0ab558c ()
+#37 0x00000000065dff17 in SNPSee_b3a63ca9beb66366a2beecdfa325f5f850e37c16b964335ba934f8a7afefeaf1 ()
+#38 0x000000000055c709 in SNPSee_5a24f30b88271223 ()
+#39 0x00007f94a2ef1555 in __libc_start_main () from /lib64/libc.so.6
+#40 0x000000000076c7a5 in SNPSee_d06eed713327be76 ()
+(gdb) Detaching from program: /eda/Synopsys/icc2/R-2020.09-SP1/linux64/nwtn/bin/lm_shell_exec, process 4917
+[Inferior 1 (process 4917) detached]
+(gdb) 

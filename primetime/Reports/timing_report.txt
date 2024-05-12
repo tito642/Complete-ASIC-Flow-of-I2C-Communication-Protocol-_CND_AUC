@@ -1,0 +1,40 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : i2c_master_top
+Version: R-2020.09-SP4
+Date   : Sun May 12 00:06:32 2024
+****************************************
+
+
+  Startpoint: wb_ack_o_reg
+               (rising edge-triggered flip-flop clocked by wb_clk_i)
+  Endpoint: wb_ack_o (output port clocked by V_Clk)
+  Path Group: OUTPUTS
+  Path Type: max
+
+  Point                                    Incr       Path
+  ---------------------------------------------------------------
+  clock wb_clk_i (rise edge)              12.50      12.50
+  clock network delay (propagated)         0.11      12.61
+  wb_ack_o_reg/CLK (DFFX2)                 0.00      12.61 r
+  wb_ack_o_reg/Q (DFFX2)                   0.18      12.79 f
+  wb_ack_o (out)                           0.00      12.79 f
+  data arrival time                                  12.79
+
+  clock V_Clk (rise edge)                 15.00      15.00
+  clock network delay (ideal)              0.00      15.00
+  clock reconvergence pessimism            0.00      15.00
+  output external delay                   -1.14      13.86
+  data required time                                 13.86
+  ---------------------------------------------------------------
+  data required time                                 13.86
+  data arrival time                                 -12.79
+  ---------------------------------------------------------------
+  slack (MET)                                         1.07
+
+
+1

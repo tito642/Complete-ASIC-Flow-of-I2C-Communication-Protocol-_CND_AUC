@@ -1,0 +1,31 @@
+ 
+                              IC Compiler II (TM)
+
+             Version R-2020.09-SP1 for linux64 - Oct 19, 2020 -SLE
+
+                    Copyright (c) 1988 - 2020 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+icc2_shell> start_gui
+icc2_shell> open_block /home/vlsi/Desktop/Final_Project/pnr/i2c.dlib:routing.design
+Error: 'open_block' failed. Block 'i2c.dlib:routing.design' is locked by process 2808 vlsi@vlsi-eda. (NDM-029)
+icc2_shell> open_block -read /home/vlsi/Desktop/Final_Project/pnr/i2c.dlib:routing.design
+Information: User units loaded from library 'saed90nm_max_lth' (LNK-040)
+Opening block 'i2c.dlib:routing.design' in read mode
+icc2_shell> link_block
+Using libraries: i2c.dlib saed90nm_max_lth
+Visiting block i2c.dlib:routing.design
+Design 'i2c_master_top' was successfully linked.
+1
+icc2_shell> write_sdc -output /home/vlsi/Desktop/Final_Project/pnr/output/i2c_master_top.out.sdc
+1
+icc2_shell> gui_set_layout_layer_visibility -toggle [get_layers -filter {mask_name == metal8} -quiet]
+1
+icc2_shell> gui_set_layout_layer_visibility -toggle [get_layers -filter {mask_name == metal9} -quiet]
+1
+icc2_shell> write_sdc -output /home/vlsi/Desktop/Final_Project/pnr/output/i2c_master_top.out.sdc
+1
+icc2_shell> 

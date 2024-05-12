@@ -1,0 +1,15 @@
+<Database>
+Name/home/vlsi/Desktop/Final_Project/pnr/check_design.ems
+Creation TimeSat May 11 19:06:05 2024
+Modified TimeSat May 11 19:06:05 2024
+Design Namerouting
+Library Namei2c.dlib
+</Database>
+<RuleCount>
+DFT-0111
+</RuleCount>
+<UserDefinedRules>
+</UserDefinedRules>
+<Messages>
+DFT-011reason10
+</Messages>

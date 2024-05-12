@@ -1,0 +1,24 @@
+<Database>
+Name/home/vlsi/Desktop/Final_Project/ndm/check_workspace.ems
+Creation TimeSat May 11 16:32:07 2024
+Modified TimeSat May 11 16:32:08 2024
+Design Name
+Library Name
+</Database>
+<RuleCount>
+LM-0051
+LM-0061
+LM-0341
+LM-0501
+LM-0522
+</RuleCount>
+<UserDefinedRules>
+</UserDefinedRules>
+<Messages>
+LM-005
+LM-006para1saed90nm_max_lth10para2310para3arc10
+LM-034para122410para2s10para3224 with a design view (212 had ports reordered);10
+LM-052para111610para2s10
+LM-050para111610para2s10
+LM-052para122410para2s10
+</Messages>
