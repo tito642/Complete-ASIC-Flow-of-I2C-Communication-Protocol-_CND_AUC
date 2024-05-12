@@ -8,10 +8,15 @@ In this project, I will go through the ASIC flow to create the complete layout (
 
 EDA Tools:
 EDA Playground(synopsys VCS 2023.03)
+
 Design Complier
+
 Formality
+
 IC Compiler II Library Manager
+
 IC Compiler II
+
 Prime Time
 
 Flow Steps:
